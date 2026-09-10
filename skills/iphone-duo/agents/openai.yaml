@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone Duo"
+  short_description: "Audit and adapt apps for iPhone Duo"
+  default_prompt: "Use $iphone-duo to map this app, implement iPhone Duo compatibility, and report what was verified."
