@@ -4,7 +4,7 @@ description: Audit and adapt an existing iOS app for iPhone Duo by tracing its a
 license: MIT
 metadata:
   author: mahdi-salmanzade
-  version: "1.0.0"
+  version: "1.1.0"
 ---
 
 # iPhone Duo
@@ -19,7 +19,7 @@ Read the project's instructions and inspect its working-tree changes. Locate the
 
 Read [app-discovery.md](references/app-discovery.md) to build an app map: entry points, navigation, screens, state ownership, platform integrations, and tests. Attach file or symbol evidence to the map. Inspect the implementations behind routes and shared wrappers, then exercise important flows when the app can run. Identify unknowns that could change the implementation and ask only for missing information that the repository and tools cannot resolve.
 
-Read [apple-platform.md](references/apple-platform.md) before choosing Duo behavior or APIs. Check its source links against current Apple documentation and the actual installed SDK. Record the check date, Xcode version, SDK, simulator runtime, deployment target, and relevant framework versions. If online documentation is unavailable, label the reference snapshot as dated and limit changes to APIs verified in the available toolchain.
+Read [apple-platform.md](references/apple-platform.md) before choosing Duo behavior or APIs. Check its source links against current Apple documentation and the actual installed SDK. Record the check date, Xcode version, SDK, simulator runtime, deployment target, and relevant framework versions. For a cross-platform app also record which Xcode or build image produces the shipping binary: the Duo behavior tier is fixed by the SDK that linked it, and no JavaScript, Dart, or over-the-air change moves it. If online documentation is unavailable, label the reference snapshot as dated and limit changes to APIs verified in the available toolchain.
 
 Choose a buildable path:
 

@@ -61,7 +61,7 @@ It uses your agent's existing code, terminal, browser, and testing tools. There 
 
 ## Tooling status and limits
 
-The Apple reference was checked on **September 10, 2026**. At that time, Apple listed Xcode 27.1 beta and the written preparation guide as coming later that month. The skill tells the agent to recheck availability before each migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/)
+The Apple reference was checked on **September 10, 2026**. At that time, Apple's hub listed Xcode 27.1 beta and the written preparation guide as coming later that month; the six Tech Talks and the Designing for iPhone Duo Human Interface Guidelines page were live, and the new API symbols named in the talks had no published documentation pages yet. No EAS Build image carried Xcode 27.1 either, so no Expo app could yet be built for the full iOS 27.1 behavior. The skill tells the agent to recheck availability before each migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/)
 
 A skill guides the agent; it cannot guarantee complete understanding of an app or compatibility without running the relevant tests. If the required SDK, simulator, hardware, or app access is missing, the agent should complete the work it can verify and identify the remaining checks.
 
