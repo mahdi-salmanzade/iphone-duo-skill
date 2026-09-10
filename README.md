@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/iphone-duo-hero.png" alt="iPhone Duo skill banner: an iPhone Duo held in one hand, showing the home screen with side-mounted controls" width="720">
+  <img src="assets/iphone-duo-hero.png" alt="iPhone Duo skill banner: an iPhone Duo shown closed from the back and open with the Expo logo on its inner display" width="720">
 </p>
 
 # iPhone Duo skill
