@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/iphone-duo-hero.png" alt="iPhone Duo skill banner: an iPhone Duo held in one hand, showing the home screen with side-mounted controls" width="720">
+</p>
+
 # iPhone Duo skill
 
 A reusable agent skill for adapting an existing app to iPhone Duo. It directs your coding agent to understand the app's architecture and user flows, implement the required changes, and report evidence from builds and device tests.
