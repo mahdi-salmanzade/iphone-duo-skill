@@ -65,7 +65,9 @@ It uses your agent's existing code, terminal, browser, and testing tools. There 
 
 ## Tooling status and limits
 
-The Apple reference was checked on **September 10, 2026**. At that time, Apple's hub listed Xcode 27.1 beta and the written preparation guide as coming later that month; the six Tech Talks and the Designing for iPhone Duo Human Interface Guidelines page were live, and the new API symbols named in the talks had no published documentation pages yet. No EAS Build image carried Xcode 27.1 either, so no Expo app could yet be built for the full iOS 27.1 behavior. The skill tells the agent to recheck availability before each migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/)
+Version **1.2.0** refreshes the Apple and framework references as of **September 30, 2026**. Apple now publishes the written preparation guide, API references, Group Lab recap, and Q&A answers. Xcode 27.1 beta includes the Duo SDK and simulator; Apple's newer Xcode 27.2 beta 2 still directs developers to 27.1 beta for Duo support. The skill checks the selected toolchain and records beta limitations before a migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/), [Xcode 27.2 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes)
+
+Expo now offers the explicit `macos-tahoe-26.6-xcode-27.1` EAS image with Xcode 27.1 beta. The framework reference covers its build requirements, SDK 57 scene-lifecycle migration, SDK 58 beta changes, and experimental Safari fold APIs. It also corrects sheet/bar behavior, camera format limits, and size-class guidance, and records conflicts in Apple's orientation and layout documentation. Recheck these dated findings and the installed SDK before applying them. [Expo build infrastructure](https://docs.expo.dev/build-reference/infrastructure/)
 
 A skill guides the agent; it cannot guarantee complete understanding of an app or compatibility without running the relevant tests. If the required SDK, simulator, hardware, or app access is missing, the agent should complete the work it can verify and identify the remaining checks.
 

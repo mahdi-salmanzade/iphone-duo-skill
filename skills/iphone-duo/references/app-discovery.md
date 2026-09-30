@@ -8,7 +8,7 @@ Locate app targets and schemes, manifests and lockfiles, native entry points, en
 
 Determine whether native files are maintained source, generated output, or a mix. Record framework and navigation-library versions from the lockfile. Look for checked-in documentation or scripts that explain how developers actually start and test the app. Inspect configuration names and references without dumping secret values.
 
-For native projects, inspect the app/scene delegate or SwiftUI App, scene definitions, target settings, and presentation roots. For cross-platform projects, inspect both the shared app entry and iOS host; a JavaScript or Dart fix may still depend on native behavior.
+For native projects, inspect the app/scene delegate or SwiftUI App, scene definitions, launch-screen configuration, target settings, and presentation roots. Separate adoption of the scene lifecycle required by newer SDKs from optional support for multiple windows. Distinguish per-scene navigation and draft state from app-wide persistence such as UserDefaults or @AppStorage. For cross-platform projects, inspect both the shared app entry and iOS host; a JavaScript or Dart fix may still depend on native behavior.
 
 ## Trace behavior, not just files
 
