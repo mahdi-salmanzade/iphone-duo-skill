@@ -1,6 +1,8 @@
 <p align="center">
-  <img src="assets/iphone-duo-hero.png" alt="iPhone Duo skill banner: an iPhone Duo shown closed from the back and open with the Expo logo on its inner display" width="720">
+  <img src="assets/iphone-duo-hero.png" alt="iPhone Duo Split View diagram showing controls along each app's outer edge" width="720">
 </p>
+
+<p align="center"><sub>Diagram: <a href="https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo#Vertical-controls">Apple Human Interface Guidelines</a>. © Apple Inc.</sub></p>
 
 # iPhone Duo skill
 
@@ -31,7 +33,18 @@ npx skills add mahdi-salmanzade/iphone-duo-skill --skill iphone-duo --agent curs
 
 Installation is project-scoped by default. Add `--global` for a personal installation. The [Skills CLI](https://github.com/vercel-labs/skills) documents supported agents and installation options.
 
-For manual installation, copy the complete [skills/iphone-duo](skills/iphone-duo) folder into your agent's skill directory. Keep `SKILL.md`, `references/`, and `agents/` together. For Codex, the project destination is `.agents/skills/iphone-duo/`; for Claude Code, it is `.claude/skills/iphone-duo/`.
+For manual installation, copy the complete [skills/iphone-duo](skills/iphone-duo) folder into your agent's skill directory. Keep `SKILL.md`, `references/`, `scripts/`, and `agents/` together. For Codex, the project destination is `.agents/skills/iphone-duo/`; for Claude Code, it is `.claude/skills/iphone-duo/`.
+
+## Apple documentation and illustrations
+
+Version **1.3.0** adds a downloader for the cataloged Apple pages and illustrations, plus a [design-rule guide](skills/iphone-duo/references/design-rules.md), checked October 2, 2026. After installation, run these commands from the skill directory to download and verify the reference library:
+
+```sh
+python3 scripts/fetch_apple_docs.py
+python3 scripts/fetch_apple_docs.py --verify
+```
+
+The [reading guide](skills/iphone-duo/references/apple-docs.md) covers anatomy, poses, safe areas, reserved regions, toolbars, tab bars, split views, sheets, scrolling, accessibility, and verification. Downloads include complete official Markdown and DocC JSON, local illustrations, an image atlas, source URLs, retrieval times, and hashes. Apple source material stays in the local `references/apple-source/` cache, excluded from Git and the MIT license; the catalog and downloader make it available after installation. Videos and design kits remain linked online.
 
 ## Use it
 
@@ -65,7 +78,7 @@ It uses your agent's existing code, terminal, browser, and testing tools. There 
 
 ## Tooling status and limits
 
-Version **1.2.0** refreshes the Apple and framework references as of **September 30, 2026**. Apple now publishes the written preparation guide, API references, Group Lab recap, and Q&A answers. Xcode 27.1 beta includes the Duo SDK and simulator; Apple's newer Xcode 27.2 beta 2 still directs developers to 27.1 beta for Duo support. The skill checks the selected toolchain and records beta limitations before a migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/), [Xcode 27.2 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes)
+The toolchain and framework notes below reflect the **September 30, 2026** snapshot. Recheck them against the selected build environment. Apple now publishes the written preparation guide, API references, Group Lab recap, and Q&A answers. Xcode 27.1 beta includes the Duo SDK and simulator; Apple's newer Xcode 27.2 beta 2 still directs developers to 27.1 beta for Duo support. The skill checks the selected toolchain and records beta limitations before a migration. [Apple's developer hub](https://developer.apple.com/iphone-duo/), [Xcode 27.2 release notes](https://developer.apple.com/documentation/xcode-release-notes/xcode-27_2-release-notes)
 
 Expo now offers the explicit `macos-tahoe-26.6-xcode-27.1` EAS image with Xcode 27.1 beta. The framework reference covers its build requirements, SDK 57 scene-lifecycle migration, SDK 58 beta changes, and experimental Safari fold APIs. It also corrects sheet/bar behavior, camera format limits, and size-class guidance, and records conflicts in Apple's orientation and layout documentation. Recheck these dated findings and the installed SDK before applying them. [Expo build infrastructure](https://docs.expo.dev/build-reference/infrastructure/)
 
@@ -75,10 +88,12 @@ A skill guides the agent; it cannot guarantee complete understanding of an app o
 
 - [Skill instructions](skills/iphone-duo/SKILL.md)
 - [App discovery](skills/iphone-duo/references/app-discovery.md)
+- [Complete Apple documentation and images](skills/iphone-duo/references/apple-docs.md)
+- [Duo design rules](skills/iphone-duo/references/design-rules.md)
 - [Apple sources and platform behavior](skills/iphone-duo/references/apple-platform.md)
 - [Framework-specific implementation](skills/iphone-duo/references/frameworks.md)
 - [Verification matrix](skills/iphone-duo/references/validation.md)
 
 ## License
 
-MIT. See [LICENSE](LICENSE). This is an independent project, unaffiliated with Apple. External documentation remains subject to its own terms.
+The skill's code and independently written guidance are MIT licensed. See [LICENSE](LICENSE). The Apple header diagram and downloaded Apple documentation and illustrations retain Apple's copyright and terms; they are not MIT licensed. This is an independent project, unaffiliated with Apple.

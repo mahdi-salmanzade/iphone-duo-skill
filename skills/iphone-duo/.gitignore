@@ -1,0 +1,3 @@
+# Keep downloaded Apple source material local in every installed copy of the skill.
+references/apple-source/
+__pycache__/

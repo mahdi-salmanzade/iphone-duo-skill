@@ -1,5 +1,7 @@
 # Apple platform reference
 
+For the complete Duo HIG, supporting UI pages, and local illustrations fetched on October 2, 2026, use [Apple documentation and images](apple-docs.md) and [Design rules](design-rules.md). The dated toolchain and API notes below remain a separate snapshot.
+
 Source snapshot checked **2026-09-30**. Open the relevant primary source and inspect installed declarations before writing new API calls. This reference records published guidance, not local SDK compilation or device-test results. Beta APIs and tooling can change.
 
 ## Availability and source index

@@ -4,7 +4,7 @@ description: Audit and adapt an existing iOS app for iPhone Duo by tracing its a
 license: MIT
 metadata:
   author: mahdi-salmanzade
-  version: "1.2.0"
+  version: "1.3.0"
 ---
 
 # iPhone Duo
@@ -14,6 +14,8 @@ Make the user's existing app work across iPhone Duo configurations while preserv
 For an implementation request, carry the work through changes and verification. For an audit request, report findings without editing application code. For a targeted bug, trace the affected flow and shared infrastructure; do not expand it into a full migration.
 
 ## Establish the app and toolchain
+
+Before changing Duo layout, read [Apple documentation and illustrations](references/apple-docs.md) and [Design rules](references/design-rules.md). Use the complete local HIG, supporting pages, and image atlas linked there; fetch them with `python3 scripts/fetch_apple_docs.py` from this skill's directory if absent or stale. Inspect the relevant diagrams as well as the text, especially bar placement, safe areas, folds, and pane ownership. Keep Apple's documented behavior separate from product choices such as equal pane widths, content caps, and decorative blur. Never derive a universal inset from a screenshot.
 
 Read the project's instructions and inspect its working-tree changes. Locate the actual iOS app in a monorepo, its build configuration, and the source of generated native files. Follow the project's existing search or code-graph workflow. Exclude dependencies and build output from initial discovery.
 

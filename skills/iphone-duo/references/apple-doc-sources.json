@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "publisher": "Apple Inc.",
+  "scope": "Complete Duo HIG and its directly linked DocC articles, plus supporting UI guidance and layout/presentation APIs. Not a recursive mirror of the Apple developer site.",
+  "pages": [
+    {
+      "id": "design-human-interface-guidelines-designing-for-iphone-duo",
+      "title": "Designing for iPhone Duo",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-iphone-duo",
+      "reason": "Requested complete HIG article"
+    },
+    {
+      "id": "design-human-interface-guidelines-layout",
+      "title": "Layout",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/layout",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-technologyoverviews-preparing-your-app-for-iphone-duo",
+      "title": "Preparing your app for iPhone Duo",
+      "url": "https://developer.apple.com/documentation/technologyoverviews/preparing-your-app-for-iphone-duo",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "design-human-interface-guidelines-designing-for-ios",
+      "title": "Designing for iOS",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-ios",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-xcode-device-hub",
+      "title": "Device Hub",
+      "url": "https://developer.apple.com/documentation/xcode/device-hub",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "design-human-interface-guidelines-designing-for-games",
+      "title": "Designing for games",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/designing-for-games",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-geometryproxy-safeareainsets",
+      "title": "safeAreaInsets",
+      "url": "https://developer.apple.com/documentation/swiftui/geometryproxy/safeareainsets",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uiview-safeareainsets",
+      "title": "safeAreaInsets",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/safeareainsets",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-reservedregion",
+      "title": "ReservedRegion",
+      "url": "https://developer.apple.com/documentation/swiftui/reservedregion",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uiview-reservedregion",
+      "title": "UIView.ReservedRegion",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/reservedregion",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "design-human-interface-guidelines-split-views",
+      "title": "Split views",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/split-views",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-navigationsplitview",
+      "title": "NavigationSplitView",
+      "url": "https://developer.apple.com/documentation/swiftui/navigationsplitview",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uisplitviewcontroller",
+      "title": "UISplitViewController",
+      "url": "https://developer.apple.com/documentation/uikit/uisplitviewcontroller",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-arrangementview",
+      "title": "ArrangementView",
+      "url": "https://developer.apple.com/documentation/swiftui/arrangementview",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uiarrangementviewcontroller",
+      "title": "UIArrangementViewController",
+      "url": "https://developer.apple.com/documentation/uikit/uiarrangementviewcontroller",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-hstack",
+      "title": "HStack",
+      "url": "https://developer.apple.com/documentation/swiftui/hstack",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-vstack",
+      "title": "VStack",
+      "url": "https://developer.apple.com/documentation/swiftui/vstack",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-zstack",
+      "title": "ZStack",
+      "url": "https://developer.apple.com/documentation/swiftui/zstack",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritemvisibilitypriority",
+      "title": "ToolbarItemVisibilityPriority",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemvisibilitypriority",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uibarbuttonitemvisibilitypriority",
+      "title": "UIBarButtonItemVisibilityPriority",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitemvisibilitypriority",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritemgroup",
+      "title": "ToolbarItemGroup",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemgroup",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uibarbuttonitemgroup",
+      "title": "UIBarButtonItemGroup",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitemgroup",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "design-human-interface-guidelines-toolbars",
+      "title": "Toolbars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/toolbars",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-label",
+      "title": "Label",
+      "url": "https://developer.apple.com/documentation/swiftui/label",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uibarbuttonitem",
+      "title": "UIBarButtonItem",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitem",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-toolbarverticalcompressionbehavior",
+      "title": "ToolbarVerticalCompressionBehavior",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbarverticalcompressionbehavior",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uiverticalbarcompressionbehavior",
+      "title": "UIVerticalBarCompressionBehavior",
+      "url": "https://developer.apple.com/documentation/uikit/uiverticalbarcompressionbehavior",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-swiftui-toolbaroverflowmenu",
+      "title": "ToolbarOverflowMenu",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaroverflowmenu",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "documentation-uikit-uinavigationitem-additionaloverflowitems",
+      "title": "additionalOverflowItems",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationitem/additionaloverflowitems",
+      "reason": "Linked directly from the Duo HIG"
+    },
+    {
+      "id": "design-human-interface-guidelines-tab-bars",
+      "title": "Tab bars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/tab-bars",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-sidebars",
+      "title": "Sidebars",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sidebars",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-sheets",
+      "title": "Sheets",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/sheets",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-modality",
+      "title": "Modality",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/modality",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-scroll-views",
+      "title": "Scroll views",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/scroll-views",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-accessibility",
+      "title": "Accessibility",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "design-human-interface-guidelines-search-fields",
+      "title": "Search fields",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/search-fields",
+      "reason": "Supporting UI design guidance"
+    },
+    {
+      "id": "documentation-swiftui-environmentvalues-toolbarverticaledge",
+      "title": "toolbarVerticalEdge",
+      "url": "https://developer.apple.com/documentation/swiftui/environmentvalues/toolbarverticaledge",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-geometryproxy-reservedregions-kind-options-layoutdirectionbehavior",
+      "title": "reservedRegions(kind:options:layoutDirectionBehavior:)",
+      "url": "https://developer.apple.com/documentation/swiftui/geometryproxy/reservedregions(kind:options:layoutdirectionbehavior:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbarcontent-axisbehavior",
+      "title": "axisBehavior(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbarcontent/axisbehavior(_:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbarcontent-visibilitypriority",
+      "title": "visibilityPriority(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbarcontent/visibilitypriority(_:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritem",
+      "title": "ToolbarItem",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritem",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritemplacement",
+      "title": "ToolbarItemPlacement",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritemplacement-cancellationaction",
+      "title": "cancellationAction",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement/cancellationaction",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-toolbaritemplacement-topbarpinnedtrailing",
+      "title": "topBarPinnedTrailing",
+      "url": "https://developer.apple.com/documentation/swiftui/toolbaritemplacement/topbarpinnedtrailing",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-view-backgroundextensioneffect",
+      "title": "backgroundExtensionEffect()",
+      "url": "https://developer.apple.com/documentation/swiftui/view/backgroundextensioneffect()",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-view-presentationplacement",
+      "title": "presentationPlacement(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/presentationplacement(_:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-view-toolbar-content",
+      "title": "toolbar(content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbar(content:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-swiftui-view-toolbarverticalbehavior",
+      "title": "toolbarVerticalBehavior(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/toolbarverticalbehavior(_:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uibackgroundextensionview",
+      "title": "UIBackgroundExtensionView",
+      "url": "https://developer.apple.com/documentation/uikit/uibackgroundextensionview",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uibarbuttonitem-axisbehavior-swift-property",
+      "title": "axisBehavior",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitem/axisbehavior-swift.property",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uibarbuttonitem-visibilitypriority",
+      "title": "visibilityPriority",
+      "url": "https://developer.apple.com/documentation/uikit/uibarbuttonitem/visibilitypriority",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uiinterfaceorientation",
+      "title": "UIInterfaceOrientation",
+      "url": "https://developer.apple.com/documentation/uikit/uiinterfaceorientation",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uinavigationbar",
+      "title": "UINavigationBar",
+      "url": "https://developer.apple.com/documentation/uikit/uinavigationbar",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uisheetpresentationcontroller-preferredplacement",
+      "title": "preferredPlacement",
+      "url": "https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller/preferredplacement",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uitabbar",
+      "title": "UITabBar",
+      "url": "https://developer.apple.com/documentation/uikit/uitabbar",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uitoolbar",
+      "title": "UIToolbar",
+      "url": "https://developer.apple.com/documentation/uikit/uitoolbar",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uitraitcollection-verticalbaredge",
+      "title": "verticalBarEdge",
+      "url": "https://developer.apple.com/documentation/uikit/uitraitcollection/verticalbaredge",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uiview-reservedregions-kind-options",
+      "title": "reservedRegions(kind:options:)",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/reservedregions(kind:options:)",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uiviewcontroller-preferredverticalbarbehavior",
+      "title": "preferredVerticalBarBehavior",
+      "url": "https://developer.apple.com/documentation/uikit/uiviewcontroller/preferredverticalbarbehavior",
+      "reason": "UI API linked from Apple’s preparation guide"
+    },
+    {
+      "id": "documentation-uikit-uisheetpresentationcontroller",
+      "title": "UISheetPresentationController",
+      "url": "https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller",
+      "reason": "Sheet sizing and presentation API"
+    },
+    {
+      "id": "documentation-swiftui-view-presentationsizing",
+      "title": "presentationSizing(_:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/presentationsizing(_:)",
+      "reason": "Sheet sizing API"
+    },
+    {
+      "id": "documentation-uikit-uiview-safearealayoutguide",
+      "title": "safeAreaLayoutGuide",
+      "url": "https://developer.apple.com/documentation/uikit/uiview/safearealayoutguide",
+      "reason": "Safe-area layout contract"
+    },
+    {
+      "id": "documentation-swiftui-view-safeareabar-edge-alignment-spacing-content",
+      "title": "safeAreaBar(edge:alignment:spacing:content:)",
+      "url": "https://developer.apple.com/documentation/swiftui/view/safeareabar(edge:alignment:spacing:content:)",
+      "reason": "Custom bars and content clearance"
+    }
+  ],
+  "asset_pages": [
+    "design-human-interface-guidelines-designing-for-iphone-duo",
+    "design-human-interface-guidelines-layout",
+    "documentation-technologyoverviews-preparing-your-app-for-iphone-duo",
+    "design-human-interface-guidelines-designing-for-ios",
+    "documentation-xcode-device-hub",
+    "design-human-interface-guidelines-designing-for-games",
+    "documentation-swiftui-geometryproxy-safeareainsets",
+    "documentation-uikit-uiview-safeareainsets",
+    "documentation-swiftui-reservedregion",
+    "documentation-uikit-uiview-reservedregion",
+    "design-human-interface-guidelines-split-views",
+    "documentation-swiftui-navigationsplitview",
+    "documentation-uikit-uisplitviewcontroller",
+    "documentation-swiftui-arrangementview",
+    "documentation-uikit-uiarrangementviewcontroller",
+    "documentation-swiftui-hstack",
+    "documentation-swiftui-vstack",
+    "documentation-swiftui-zstack",
+    "documentation-swiftui-toolbaritemvisibilitypriority",
+    "documentation-uikit-uibarbuttonitemvisibilitypriority",
+    "documentation-swiftui-toolbaritemgroup",
+    "documentation-uikit-uibarbuttonitemgroup",
+    "design-human-interface-guidelines-toolbars",
+    "documentation-swiftui-label",
+    "documentation-uikit-uibarbuttonitem",
+    "documentation-swiftui-toolbarverticalcompressionbehavior",
+    "documentation-uikit-uiverticalbarcompressionbehavior",
+    "documentation-swiftui-toolbaroverflowmenu",
+    "documentation-uikit-uinavigationitem-additionaloverflowitems",
+    "design-human-interface-guidelines-tab-bars",
+    "design-human-interface-guidelines-sidebars",
+    "design-human-interface-guidelines-sheets",
+    "design-human-interface-guidelines-modality",
+    "design-human-interface-guidelines-scroll-views",
+    "design-human-interface-guidelines-accessibility",
+    "design-human-interface-guidelines-search-fields",
+    "documentation-swiftui-environmentvalues-toolbarverticaledge",
+    "documentation-swiftui-geometryproxy-reservedregions-kind-options-layoutdirectionbehavior",
+    "documentation-swiftui-toolbarcontent-axisbehavior",
+    "documentation-swiftui-toolbarcontent-visibilitypriority",
+    "documentation-swiftui-toolbaritem",
+    "documentation-swiftui-toolbaritemplacement",
+    "documentation-swiftui-toolbaritemplacement-cancellationaction",
+    "documentation-swiftui-toolbaritemplacement-topbarpinnedtrailing",
+    "documentation-swiftui-view-backgroundextensioneffect",
+    "documentation-swiftui-view-presentationplacement",
+    "documentation-swiftui-view-toolbar-content",
+    "documentation-swiftui-view-toolbarverticalbehavior",
+    "documentation-uikit-uibackgroundextensionview",
+    "documentation-uikit-uibarbuttonitem-axisbehavior-swift-property",
+    "documentation-uikit-uibarbuttonitem-visibilitypriority",
+    "documentation-uikit-uiinterfaceorientation",
+    "documentation-uikit-uinavigationbar",
+    "documentation-uikit-uisheetpresentationcontroller-preferredplacement",
+    "documentation-uikit-uitabbar",
+    "documentation-uikit-uitoolbar",
+    "documentation-uikit-uitraitcollection-verticalbaredge",
+    "documentation-uikit-uiview-reservedregions-kind-options",
+    "documentation-uikit-uiviewcontroller-preferredverticalbarbehavior",
+    "documentation-uikit-uisheetpresentationcontroller",
+    "documentation-swiftui-view-presentationsizing",
+    "documentation-uikit-uiview-safearealayoutguide",
+    "documentation-swiftui-view-safeareabar-edge-alignment-spacing-content"
+  ]
+}
